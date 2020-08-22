@@ -1,0 +1,6 @@
+First chapter was an intro to the book and what .html and .css files are
+Also talked about what characters are valid for URLs and files in a browser's address bar
+
+http://www.asmarterwaytolearn.com --> probably built by 'index.html' because '/FILENAME.html' isn't showing.
+
+No real coding exercises this. Just a small JSFiddle exercise to show what html pages look like when they're run bare and with css

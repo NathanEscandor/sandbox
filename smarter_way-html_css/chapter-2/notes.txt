@@ -1,0 +1,13 @@
+* This chapter introduced the idea of html tags, particularly the paragraph (<p>) tag. 
+* Opening tags (<open>) vs closing tags (</open).
+* <P> also usually works for paragraph but probably shouldn't ever be used.
+
+<html>
+  Line 1
+  Line 2
+</html>
+would output: `Line 1Line 2`
+
+~ Adding paragraph tags around Line 1 and Line 2 would output:
+`Line 1
+Line 2`

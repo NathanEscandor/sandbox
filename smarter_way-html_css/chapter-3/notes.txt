@@ -1,0 +1,6 @@
+Chapter about the headings tag
+* 6 heading sizes to choose from. h1 (biggest) through h6 (smallest)
+* Search engines look for h1 so you should use it (and only use one)
+
+Browser ignores carriage returns.
+If you want it to break in specific places, use the break (<br>) tag (it has no closing tag)

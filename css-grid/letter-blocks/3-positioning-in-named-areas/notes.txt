@@ -1,0 +1,31 @@
+Positioning In Named Areas
+
+* An alternative to counting rows and columns is to name parts of your grid. 
+    These named parts are called 'grid areas'
+
+* CSS property `grid-template-areas` is used to create a grid area
+
+* Points about creating grid areas
+    1. Must name every grid area
+    2. If you don't want name an area, use `.`
+    3. Each group separated by quotes denotes a row ("row 1" "row 2")
+    4. Each value within a quote signifies an area ("area1 area2")
+
+* To place items on a grid area, use `grid-area`
+    - the below example applies class xyz onto the grid areas that match the name 'dinkle'
+.xyz {
+    grid-area: dinkle;
+}
+
+
+* The below example has 3 grid areas
+    1. header on the first row takes up 4 columns (grid areas)
+    2. main on the second row takes up the middle 2 columns
+    3. footer on the third row takes up 4 columns
+
+.grid {
+    grid-template-areas:    "header header header header"
+                            ".      main   main   .     "
+                            "footer footer footer footer";
+}
+

@@ -1,0 +1,12 @@
+Specifying Fonts
+
+* Talked about adding css styling to a page. We added styles.css to the my-smarter-site dir.
+* It styles paragraphs (p) and largest header (h1) with the font-family set to a 'font stack' of Georgia, "TNR", Times, serif.
+* Font Stack
+    - If first font choice isn't installed, will back up to the next in the stack until it finds one that works
+    - last fallback in the stack is always the generic (sans-serif or serif) to guarantee that something can render 
+
+* There exist common lists of web safe font stacks to use. Can probably look it up when appropriate. 
+    - Book listed this lifewire link: https://www.lifewire.com/web-safe-font-stacks-3467429
+
+* We didn't link it to the html at the end of this

@@ -1,0 +1,8 @@
+Linking CSS to HTML
+
+* <link> tag goes between the <head> tags instead of <body> like everything else we've been doing up to now
+* link is a standalone tag
+* link has 3 'equations'
+    - rel (link relationship)='stylesheet' tells the browser that we're linking to a css stylesheet
+    - type="text/css" is vestigial because we already know that we're linking to a css file
+    - href (hypertext reference)="css/styles.css" tells the browser where to find the linked file

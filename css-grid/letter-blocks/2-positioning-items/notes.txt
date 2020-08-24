@@ -1,0 +1,24 @@
+Positioning Items in Grid
+
+* Two css properties control positioning of items in a Grid
+    grid-column
+    grid-row
+
+* grid-column is shorthand for `grid-column-start / grid-column-end`
+eg these are equivalent:
+    .grid-item {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .grid-item {
+        grid-column: 1 / 3;
+    }
+
+* can also use the `span` keyword to tell CSS Grid how many columns to take up
+    .grid-item {
+        grid-column-start: 1;       /* start at col 1 */
+        grid-column-end: span 2;    /* grid item is 2 columns wide */
+    }
+
+* the above works for rows!

@@ -1,0 +1,10 @@
+Explicit Grid (zellwk resource)
+
+Two css properties are used to make an explicit grid
+    grid-template-columns (define num cols)
+    grid-template-rows (define num rows)
+
+Each of these properties creates a new column for each length value added to it.
+
+can also take in: `repeat`, `autofill`, `autofit`, `minmax`
+

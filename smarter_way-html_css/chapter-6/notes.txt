@@ -1,0 +1,4 @@
+Specifying a Font Size
+
+* will be talking about font sizes in terms of `em`
+* 1em is the default font size of the browser, 0.75em is 3/4 the default size

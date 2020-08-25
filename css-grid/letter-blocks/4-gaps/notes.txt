@@ -1,0 +1,19 @@
+Gaps
+
+* The spaces between columns and rows in a Grid can be specified.
+    - These spaces are called Gaps
+
+* Three CSS properties to remember
+    1 `grid-column-gap` - space between columns
+    2 `grid-row-gap`    - space between rows
+    3 `grid-gap`        - shorthand for grid-row-gap and grid-column-gap (in that order)
+                            ~ if one value specified, use value for both
+
+* The following are equivalent
+.grid {
+    grid-column-gap: 1-em;
+    grid-row-gap: 2-em;
+}
+.grid {
+    grid-gap: 2-em 1-em;
+}

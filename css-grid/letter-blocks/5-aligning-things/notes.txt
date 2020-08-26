@@ -1,0 +1,45 @@
+Aligning Things
+
+* There are 6 properties that deal with aligning things
+    1. justify-content
+    2. align-content
+    3. justify-items
+    4. align-items
+    5. justify-self
+    6. align-self
+
+* Two groups here
+    - justify vs align
+        justify: Change the alignment according to the inline-axis
+        align:   Change the alignment according to the block-axis
+
+    - content, items, self
+        content: aligns the grid itself to available space outside of the grid
+                    ~ this is only needed if grid is smaller than defined area (RARE)
+        items: aligns grid item to any available whitespace in the cell (COMMON)
+        self: same thing as items, except it aligns for only ONE grid item.
+
+* Inline and Block axes
+    1. Identify direction of the language (English)
+    2. Inline-axis: way you read the language (Left to Right)
+    3. Block-axis:  way you read after the end of the first line (Top to Bottom)
+
+* Content: justify-content and align-content
+    - 7 values here
+        1. start: flush grid to start of axis
+        2. end: flush grid to end of axis
+        3. center: align grid to center of axis
+        4. stretch: grid fills the axis (This is the Default)
+        5. space-between: spreads whitespace between each grid item (no whitespace on ends)
+        6. space-around: spreads whitespace around each grid item
+        7. space-evenly: spreads whitespace evenly around each grid item including the ends
+
+* Items: justify-items and align-items
+    - 4 values here
+        1. start: flush item to start of axis
+        2. end: flush item to end of axis
+        3. center: align item ot center of axis
+        4. stretch: fills the axis (This is the Default)
+
+* Self: justify-self and align-self
+    - 4 values here (same as Items)

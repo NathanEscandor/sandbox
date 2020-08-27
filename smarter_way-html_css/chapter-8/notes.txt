@@ -1,12 +1,3 @@
-7 - CSS Classes
-
-* We can make classes of paragraphs and headings that vary from the general stylings for <p> and <hX>
-* In fact, we can make classes for just about any element on the page for custom formatting.
-
-CSS example below will override the font-size of h2 headers that have class="bigger"
-h2.bigger {
-    font-size: 2.5em;
-}
-
-HTML example below will apply css for special {}, conspicuous {}, and enhanced {} to the h3.
-<h3 class="special conspicuous enhanced">Hello now!!</h3>
+8 - Classes not tied to an element
+* In the last chapter, talked about class variants of specific elements (eg h1.special, p.wide)
+* If we just want a class that can be used for anything, can just use .special {}

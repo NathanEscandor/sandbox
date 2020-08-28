@@ -1,0 +1,6 @@
+9 - Font-weight
+
+* Font weights range from 100 (lightest) to 900 (heaviest).
+* 400 is normal
+
+* Can also use 'lighter', 'normal', 'bold', 'bolder' 

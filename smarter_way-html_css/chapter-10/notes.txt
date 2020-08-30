@@ -1,0 +1,8 @@
+10 - Font style
+
+* `font-style` property allows us to apply different styles to classes
+
+* can use `font-style: italic;` to apply italics, or use <i></i> tags
+* <em></em> tag (emphasis) does the same as <i> for text, but also applies extra vocal emphasis for screen readers
+
+* similarly, <b> and <strong> do similar things, but screen readers will also says text in a lower tone for <strong> 

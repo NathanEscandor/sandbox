@@ -1,0 +1,10 @@
+12 - Colors
+
+* can use the `color` property to set color on a class via hex or by CSS color names
+* hex values: http://www.colorpicker.com/
+* CSS color names: http://www.crockford.com/wrrrld/color.html
+
+eg
+.standout {
+    color: #cc0000;
+}

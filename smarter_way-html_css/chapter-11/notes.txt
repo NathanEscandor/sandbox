@@ -1,0 +1,5 @@
+11 - Styling bits and pieces
+
+* Instead of styling entire elements, can style parts of an element using the <span> tag
+
+eg: <p>Hello! <span class="serious">I hope you take this seriously</span>, but if not I understand.</p>

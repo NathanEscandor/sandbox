@@ -1,0 +1,13 @@
+13 - Spacing
+
+* Can create styles for text spacing.
+* letter-spacing: 0; --> default
+    -.1 em; tightens spacing
+    .1 em; spreads spacing
+
+* can also adjust spacing between words with the `word-spacing` property
+    This isn't used often.
+    Most common use is to slightly open the space between bolded words
+
+* in addition, can adjust spacing between lines (better legibility?) with the `line-height` property
+    for line-height: 1.2em; --> default!
